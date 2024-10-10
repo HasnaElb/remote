@@ -6,7 +6,71 @@
 	<meta name="description" content="Remote Job Opportunities for Job Seekers">
 	<meta name="keywords" content="remote jobs, job listings, ALX grads, digital careers, tech jobs">
 	<title>Remote Job Portal</title>
-	<link rel="stylesheet" href="styles.css"> <!-- Link to CSS stylesheet -->
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+		}
+		header {
+			background: #1c1c1c;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav a {
+			color: #fff;
+			margin: 0 15px;
+			text-decoration: none;
+		}
+		h1 {
+			margin-bottom: 0;
+		}
+		h2 {
+			margin-top: 20px;
+		}
+		#intro {
+			padding: 20px;
+			background: #ffffff;
+			text-align: center;
+		}
+		#jobs {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			gap: 20px;
+			padding: 20px;
+		}
+		.job {
+			background: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			padding: 15px;
+			text-align: left;
+			transition: transform 0.2s;
+		}
+		.job:hover {
+			transform: scale(1.05);
+		}
+		.job h3 {
+			margin: 0;
+			font-size: 1.2em;
+		}
+		.job p {
+			margin: 5px 0;
+		}
+		.footer {
+			background: #1c1c1c;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		.footer a {
+			color: #fff;
+			text-decoration: none;
+		}
+	</style>
 </head>
 <body>
 	<!-- Header Section -->
