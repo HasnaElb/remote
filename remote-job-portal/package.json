@@ -1,8 +1,0 @@
-{
-  "name": "remote-job-portal",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  }
-}
