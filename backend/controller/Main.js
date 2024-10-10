@@ -6,7 +6,7 @@ axios.defaults.headers.common["user-agent"] = "user-agent: Mozilla/5.0 (X11; Lin
 // backend/controller/Main.js
 class Main {
 	async getJobs() {
-		const jobs = await axios.get("https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=65f46dbc0b946f4143eb823a23dd1981");
+		const jobs = await axios.get("https://remoteok.com/api?api=1");
 
 		if (jobs.status == 200 || jobs.status == "OK") {
 			const job = await jobs.data;

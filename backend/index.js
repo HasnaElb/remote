@@ -6,7 +6,7 @@ const NodeCache = require("node-cache");
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
+app.set("views", "views");
 
 // Set up caching with TTL of 2 hours
 const cache = new NodeCache({ stdTTL: 7200, checkperiod: 3600 });
